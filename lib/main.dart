@@ -1,9 +1,10 @@
 import 'package:contact_search/contact.dart';
+import 'package:contact_search/search_page.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ContactsPage(),
+      home: SearchPage(),
     ));
 
 class ContactsPage extends StatefulWidget {
